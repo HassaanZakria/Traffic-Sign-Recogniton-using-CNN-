@@ -2,23 +2,6 @@
 
 A complete deep learning project for recognizing **43 classes** of traffic signs using a CNN trained on the **real GTSRB dataset**.
 
-## Project Structure
-
-```
-traffic_sign_cnn/
-├── train.py           # Training pipeline — loads real GTSRB images
-├── predict.py         # Inference script for any image
-├── gtsrb/
-│   ├── Train/
-│   │   ├── 0/        ← .ppm images for class 0
-│   │   ├── 1/
-│   │   └── ...       ← 43 class folders total
-│   └── Test/         ← optional test images
-└── models/
-    ├── traffic_sign_cnn.keras
-    ├── best_model.keras
-    └── results.json
-```
 
 ## Quick Start
 
